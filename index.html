@@ -87,12 +87,20 @@
   <body translate="no" data-new-gr-c-s-check-loaded="14.1112.0" data-gr-ext-installed="">
     <div class="container">
     <div>
-      <a href="login.html"><button class="log">Login</button></a>
-      <a href="signup.html"><button class="reg">Sign up</button></a>
+     <button class="log">Login</button>
+      <button class="reg">Sign up</button>
       <p>Made with <span>❤</span> by <a href="#">Kumar-Stocks</a>.</p>
     </div>
   </div>
+    <script>
+           document.getElementById('login-btn').addEventListener('click', function() {
+    window.location.href = 'login.html';
+  });
+  document.getElementById('signup-btn').addEventListener('click', function() {
+    window.location.href = 'signup.html';
+  });
     
+    </script>
     
     
     
